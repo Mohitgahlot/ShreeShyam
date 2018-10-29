@@ -1,0 +1,19 @@
+.ourHeros{
+    margin-top: 60px;
+}
+
+.ourHero{
+    background-color: white;
+}
+
+.ourHeroImage img{
+    padding: 0;
+    height: 180px;
+    width: 180px;
+    margin-top: -20px;
+}
+
+.aboutUs-hero{
+    background-image: -webkit-linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url("../images/services.jpg");
+    background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url("../images/services.jpg");
+}

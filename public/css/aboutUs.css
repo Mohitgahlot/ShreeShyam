@@ -1,0 +1,113 @@
+.about-container{
+    background-color: #f1f1f1;
+    width: 100%;
+    overflow: hidden;
+}
+
+.aboutUs-hero{
+    background-image: -webkit-linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)),url("../images/aboutus2.jpg");
+    background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)),url("../images/aboutus2.jpg");
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    height: 80vh;
+}
+
+.aboutUs-title{
+    color: #fff;
+    font-weight: 800;
+    position: absolute;
+    top:55%;
+    left: 50%;
+    -webkit-transform: translate(-50%,-50%);
+    transform: translate(-50%,-50%);
+    text-align: center;
+    word-spacing: 2px;
+    letter-spacing: 2px;
+    line-height: 95px;
+    font-variant: small-caps;
+    width: 100%;
+    font-family: 'Poiret One', cursive;
+    font-size: 250%;
+}
+
+.ourStory,
+.ourMission,
+.ourHeros{
+    width: 80%;
+    background-color: #ffffff;
+    margin-left: 10%;
+    margin-bottom: 60px;
+    padding: 40px;
+    box-shadow: 6px 6px 6px #cacaca;
+}
+
+.ourStory{
+    margin-top: 60px;
+}
+
+.aboutUs-headings{
+    font-family: 'Aref Ruqaa', serif;
+    letter-spacing:3px;
+    word-spacing: 2px;
+    text-align: center;
+    padding-bottom: 60px;
+    border-bottom: 2px solid #f1f1f1;
+    font-size: 180%;
+    font-weight: 100;
+    color: rgba(17, 17, 17, 0.79);
+}
+
+.aboutUs-data{
+    margin-top: 40px;
+    width: 80%;
+    margin-left: 10%;
+    font-family: 'raleway', 'serif';
+    word-spacing: 1px;
+    letter-spacing: 1px;
+    font-size: 88%;
+    line-height: 170%;
+    font-weight: 300;
+}
+
+.ourHero {
+    margin-top: 40px;
+    margin-bottom: 60px;
+    border-radius: 25px;
+    border: 2px solid #f1f1f1;
+    padding: 40px 40px;
+    width: 90%;
+    margin-left: 5%;
+    height: 250px;
+
+}
+
+.ourHeros .aboutUs-headings{
+    border-bottom: 0px solid #f1f1f1;
+}
+
+.ourHeroImage{
+    padding: 2px;
+    text-align: center;
+    float: left;
+    margin-bottom: 40px;
+}
+
+.ourHero img{
+    border-radius: 50%;
+    margin-right: 40px;
+    padding: 10px;
+    border: 2px solid #f1f1f1;
+}
+
+.ourHeroDesc{
+    margin-top: 10px;
+    width: 90%;
+    margin-left: 10%;
+    font-family: 'raleway', 'serif';
+    word-spacing: 1px;
+    letter-spacing: 1px;
+    font-size: 80%;
+    font-weight: 300;
+    line-height: 30px;
+}

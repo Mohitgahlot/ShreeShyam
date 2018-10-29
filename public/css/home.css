@@ -1,0 +1,688 @@
+.home-hero {
+    width: 100%;
+    height: 100vh;
+
+}
+
+
+.home-hero-background1{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("../images/road2.jpg");
+}
+
+.home-hero-background2{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("../images/road1.jpg");
+   display: none;
+}
+
+.home-hero-background1,
+.home-hero-background2{
+    display: block;
+    position: absolute;
+    top:0;
+    left: 0;
+    z-index: -1;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+}
+
+
+
+
+
+.home-quote{
+    color: #fff;
+    font-weight: 800;
+    position: absolute;
+    top:55%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+    word-spacing: 2px;
+    letter-spacing: 2px;
+    line-height: 95px;
+    font-variant: small-caps;
+    width: 100%;
+    font-family: 'Poiret One', cursive;
+}
+
+.home-quote-primary{
+    font-size: 250%;
+}
+
+.home-quote-secondary{
+    font-size: 220%;
+}
+
+.home-search{
+    position: absolute;
+    top:79%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 100%;
+    text-align: center;
+    display: none;
+}
+
+.home-search input[type=text]{
+    width: 45%;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: 1px solid #ccc;
+    border-right: 0px;
+    border-bottom-left-radius: 10px;
+    border-top-left-radius: 10px;
+    outline: none;
+    font-size: 110%;
+}
+
+.home-search label {
+    padding: 13px 20px;
+    background-color: white;
+    margin: 15px 0;
+    border: 1px solid #ccc;
+    border-left: 0;
+    border-bottom-right-radius: 10px;
+    border-top-right-radius: 10px;
+    margin-left: -6.5px;
+    cursor: text;
+    font-size: 110%;
+    color:#c0392b;
+}
+
+.search-popup{
+    display: none;
+}
+
+.dumy{
+    height:100vh;
+}
+
+.enquiry-button{
+    z-index: 1000;
+    float: right;
+    color: #c0392b;
+    font-variant: small-caps;
+    margin-top: 30px;
+    margin-right: 5%;
+    border:2px solid white;
+    border-radius: 7px;
+    background-color: white;
+    font-weight: 500;
+    font-size: 70%;
+    cursor: pointer;
+    text-align: center;
+    line-height: 48px;
+    width:10%;
+    height: 45px;
+    transition: border .5s;
+}
+
+.enquiry-button:hover{
+    border: 2px solid #c0392b;
+}
+
+
+.enquiry-button i{
+    font-size: 160%;
+    margin-right: 6px;
+}
+
+.lower-arrow{
+    color: white;
+    position: absolute;
+    bottom: 30px;
+    width: 100%;
+    text-align: center;
+    transition: transform 0.5s;
+}
+
+.lower-arrow:hover{
+    transform: translateY(25px);
+    transition: transform 0.5s;
+}
+
+.lower-arrow i:hover{
+    font-size: 350%;
+    transition: font-size 0.5s;
+}
+
+.lower-arrow i{
+    font-weight: 100;
+    font-size: 300%;
+    cursor: pointer;
+    transition: font-size 0.5s;
+}
+
+
+.bulb-container{
+    width: 100%;
+    height: 60vh;
+    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url("../images/bulb1.jpg");
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    font-size: 200%;
+    color: white;
+    font-family: 'Aref Ruqaa', serif;
+}
+
+.bulb-container h2{
+    font-weight: 200;
+    font-size: 100%;
+    letter-spacing: 4px;
+    word-spacing: 5px;
+    padding: 40px 0 45px 0;
+    text-align: center;
+}
+
+.bulb-container-area{
+    text-align: center;
+    padding-top: 50px;
+}
+
+.bulb-container-area i{
+    display: block;
+    font-size: 130%;
+    margin-bottom: 20px;
+}
+
+.bulb-container-area1{
+    float: left;
+    width: 33.33%;
+
+}
+
+.bulb-container-area2{
+    float: left;
+    width: 33.33%;
+}
+
+.bulb-value{
+    font-size: 80%;
+}
+
+.bulb-description{
+    margin-top: 15px;
+    font-size: 50%;
+    font-variant: small-caps;
+    letter-spacing: 1px;
+    font-family: 'raleway', 'serif';
+}
+
+
+.services{
+    height: 115vh;
+    background-color: #f1f1f1;
+    padding-top: 40px;
+}
+
+.service-area{
+    width: 80%;
+    margin-left: 10%;
+    border: 1px solid #d6d6d6;
+    background-color: white;
+    height: 98vh;
+    box-shadow: 6px 6px 6px #d6d6d6;
+}
+
+.service-block{
+    width: 90%;
+    margin: 0 5%;
+    display: block;
+    padding: 0px 20px;
+}
+
+.service{
+    width:48%;
+    float: left;
+    height: 35vh;
+    position: relative;
+    margin: 0 1% 2% 0;
+    overflow: hidden;
+}
+
+.service:hover{
+    box-shadow: 4px 4px 2px #c2c2c2;
+}
+
+
+.services h2{
+    font-weight: 200;
+    font-size: 200%;
+    letter-spacing: 4px;
+    word-spacing: 5px;
+    padding: 25px 0 40px 0;
+    text-align: center;
+    color:#444;
+    font-family: 'Aref Ruqaa', serif;
+}
+
+.service img{
+    width: 100%;
+    height: 100%;
+    transform: scale(1,1);
+    transition: transform 1s;
+}
+
+.service div{
+    position: absolute;
+    top:0;
+    left:0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    transition: background-color 1s ease;
+    cursor: crosshair;
+}
+
+.service:hover img{
+    transform: scale(1.1,1.1);
+}
+.service div:hover{
+    background-color: rgba(0, 0, 0, 0.2);
+    transition: background-color 2s ease;
+}
+
+.service div:hover #span1{
+    width: 70%;
+    transition: width 0.4s, height 0.4s;
+}
+.service div:hover #span3{
+    width: 70%;
+    transition: width 0.4s, height 0.4s;
+    transition-delay: 0.4s;
+}
+
+.service div:hover #span2{
+    height: 70%;
+    transition: width 0.4s, height 0.4s;
+    transition-delay: 0.4s;
+}
+.service div:hover #span4{
+    height: 70%;
+    transition: width 0.4s, height 0.4s;
+}
+
+
+.service-span{
+    position: absolute;
+    background-color: white;
+    display: block;
+    transition: width 0.2s, height 0.2s;
+    height: 2px;
+    width:2px;
+}
+
+
+
+#span1{
+    top:15%;
+    left: 15%;
+    width: 0;
+    transition-delay: 0.2s;
+}
+
+#span2{
+    top:15%;
+    left: 85%;
+    height: 0;
+}
+
+#span3{
+    top:85%;
+    left: 15%;
+    width: 0;
+}
+
+#span4{
+    top: 15%;
+    left: 15%;
+    height: 0;
+    transition-delay: 0.2s;
+}
+
+.service-name{
+    position: relative;
+    top: 50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    color: white;
+    font-family: 'Nunito', sans-serif;
+    font-weight: 400;
+    letter-spacing: 2px;
+    font-variant: small-caps;
+    text-align: center;
+    font-size: 200%;
+    transition: top 0.7s;
+}
+
+.service-more{
+    position: relative;
+    top: 54%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    font-family: 'Nunito', sans-serif;
+    font-weight: 300;
+    letter-spacing: 1px;
+    text-align: center;
+    font-size: 90%;
+    transition: top 0.4s;
+    color: transparent;
+}
+
+.service div:hover .service-name{
+    top:40%;
+}
+
+.service div:hover .service-more{
+    color: white;
+    top:42%;
+}
+
+
+
+.home-info{
+    background-color: #f1f1f1;
+    padding: 10px;
+}
+
+.home-info-primary{
+    color: rgba(0, 0, 0, 0.70);
+    letter-spacing: 2px;
+    word-spacing: 2px;
+    border-bottom: 1px solid #d6d6d6;
+    margin-left: 15%;
+    width: 70%;
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
+    padding: 50px;
+    line-height: 140%;
+    box-shadow: 4px 4px 2px #d6d6d6;
+    margin-top: 30px;
+}
+
+.home-info-secondary{
+    background-color: white;
+    margin-top: 60px;
+    margin-left: 10%;
+    width: 80%;
+    margin-bottom: 60px;
+}
+
+.info-heading{
+    font-weight: 300;
+    font-size: 170%;
+    letter-spacing: 4px;
+    word-spacing: 5px;
+    text-align: center;
+    font-family: 'Aref Ruqaa', serif;
+    padding: 20px 0 50px 0;
+}
+
+.info-places{
+    margin-left: 5%;
+    width: 90%;
+    height: 320px;
+}
+
+.info-places:nth-of-type(3){
+    display: none;
+}
+
+.info-place{
+    width: 24%;
+    margin-left: 1%;
+    height: 260px;
+    float: left;
+    cursor: pointer;
+    border: 1px solid #f1f1f1;
+    box-shadow: 2px 2px 1px #f1f1f1;
+}
+.info-place:hover{
+    box-shadow: 6px 6px 6px #f1f1f1;
+}
+
+.info-place:hover img{
+    height: 70%;
+}
+
+.info-place:hover p:nth-of-type(2){
+    color: #c0392b;
+}
+
+.info-place img{
+    height: 75%;
+    width: 100%;
+    transition: height 0.3s;
+}
+
+.info-place p:first-of-type{
+    font-family: 'Raleway', sans-serif;
+    color: #c0392b;
+    font-variant: small-caps;
+    text-align: center;
+    font-size: 100%;
+    padding: 17px 0 5px 0;
+    font-weight: 800;
+    letter-spacing: 1px;
+    transition: padding 0.3s;
+}
+
+.info-place p:nth-of-type(2){
+    font-family: 'Raleway', sans-serif;
+    color: transparent;
+    text-align: center;
+    font-size: 60%;
+    font-weight: 300;
+    letter-spacing: 1px;
+    transition: color 0.3s;
+}
+
+.more-city-button{
+    font-variant: small-caps;
+    width:100%;
+    font-family: 'Raleway', sans-serif;
+    text-align: center;
+    font-weight: 700;
+    font-size: 90%;
+    margin-top: 0px;
+    color: #c0392b;
+    letter-spacing: 1px;
+    word-spacing: 1px;
+    cursor: pointer;
+}
+
+.more-city-button span{
+    background-color: white;
+    padding: 15px 25px;
+    border-radius: 10px;
+    border: 1px solid #c0392b;
+    transition: background-color 0.5s ease, color 0.5s;
+    display: inline-block;
+    margin-bottom: 20px;
+}
+
+.more-city-button span:hover{
+    color:white;
+    background-color: rgba(192, 57, 43, 0.9);
+}
+
+
+
+.newsletter{
+    height: 60vh;
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url("../images/manali1.jpg");
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.newsletter-heading{
+    color: white;
+    font-weight: 200;
+    font-size: 200%;
+    letter-spacing: 4px;
+    word-spacing: 5px;
+    padding: 40px 0 45px 0;
+    text-align: center;
+    font-family: 'Aref Ruqaa', serif;
+}
+
+.newsletter-form{
+    margin-top: 50px;
+    text-align: center;
+    padding: 30px;
+}
+
+.newsletter-form input{
+    padding: 10px 30px;
+    border-radius: 10px;
+    border: 1px solid white;
+    width: 30%;
+    font-size: 90%;
+    outline: none;
+    margin: 5px;
+}
+
+.newsletter-form button{
+    width: 25%;
+    border-radius: 10px;
+    padding: 9px 30px;
+    background-color: white;
+    border: 2px solid white;
+    color: #c0392b;
+    transition: border 0.4s;
+    cursor: pointer;
+    font-variant: small-caps;
+    font-family: 'raleway', 'serif';
+    font-weight: 700;
+    letter-spacing: 1px;
+}
+
+.newsletter-form button:hover{
+    border: 2px solid #c0392b;
+    transition: border 0.4s;
+}
+
+.subscribe-message{
+    color: #fff;
+    margin-top: 50px;
+    display: none;
+}
+
+.subscribe-message-primary{
+    display: none;
+}
+.subscribe-message-secondary{
+    font-family: 'raleway', 'serif';
+    font-variant: small-caps;
+    letter-spacing: 1px;
+    word-spacing: 1px;
+    font-size: 140%;
+    display: none;
+}
+
+
+.enquiry{
+    height: 120vh;
+    background-color: #f1f1f1;
+    padding-top: 10vh;
+}
+
+.enquiry-form{
+    width: 60%;
+    margin-left: 20%;
+    background-color: white;
+    height: 105vh;
+    box-shadow: 4px 4px 2px #c2c2c2;
+}
+
+.enquiry-heading{
+    font-weight: 300;
+    font-size: 190%;
+    letter-spacing: 4px;
+    word-spacing: 5px;
+    text-align: center;
+    font-family: 'Aref Ruqaa', serif;
+    padding: 40px 0 70px 0;
+    color: #313131;
+}
+
+.enquiry-form input,
+.enquiry-form select,
+.enquiry-form textarea{
+    display: block;
+    margin: 20px 15%;
+    width: 70%;
+    padding: 10px 20px;
+    border: 1px solid #c2c2c2;
+    border-radius: 10px;
+    outline: none;
+    color: #555555;
+    background-color: rgba(241, 241, 241, 0.28);
+}
+
+.enquiry-form select{
+    height: 50px;
+}
+
+.enquiry-form textarea{
+    height: 100px;
+    max-height: 130px;
+    width: 80%;
+}
+
+.enquiry-form-button{
+    text-align: center;
+    margin-top: 30px;
+}
+
+.enquiry-form-button button{
+    padding: 15px 25px;
+    border-radius: 10px;
+    color: #c0392b;
+    background-color: white;
+    border: 1px solid #c0392b;
+    font-variant: small-caps;
+    font-family: 'raleway', 'serif';
+    transition: background-color 0.6s ease, color 0.4s linear;
+    cursor: pointer;
+    outline: none;
+}
+
+.enquiry-form-button button:hover{
+    background-color: #c0392b;
+    border: 1px solid #c0392b;
+    color: white;
+    transition: background-color 0.6s ease, color 0.4s linear;
+}
+
+
+.load-left,
+.load-right{
+    width:51%;
+    height: 100vh;
+    background-color: black;
+    position: fixed;
+    top:0;
+    z-index: 99998;
+}
+
+.loader i{
+    color: #fff;
+    z-index: 999998;
+    position: fixed;
+    top:50%;
+    left: 46%;
+}
+
+.load-right{
+    right: 0;
+}
+
+.load-left{
+    left: 0;
+}

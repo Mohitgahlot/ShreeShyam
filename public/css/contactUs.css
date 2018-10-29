@@ -1,0 +1,120 @@
+.contact-container{
+    background-image:-webkit-linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)),url("../images/Contact Us.jpg");
+    background-image:linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)),url("../images/Contact Us.jpg");
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    height: 200vh;
+}
+
+.shree-logo{
+    top:20vh;
+}
+
+.contact-heading{
+    color: #fff;
+    font-variant: small-caps;
+    font-family: 'Poiret One', cursive;
+    position: absolute;
+    top:50%;
+    left: 50%;
+    -webkit-transform: translate(-50%,-50%);
+    transform: translate(-50%,-50%);
+    font-size: 250%;
+    letter-spacing: 2px;
+    word-spacing: 2px;
+    width: 100%;
+    font-weight: 700;
+    text-align: center;
+}
+
+.contact-secondary{
+    position: absolute;
+    top:80%;
+    left:0;
+    width: 80%;
+    margin-left: 10%;
+}
+
+
+.enquiry-form{
+    background-color: rgba(0, 0, 0, 0.38);
+    width: 45%;
+    margin-left: 55%;
+    height: 100vh;
+    box-shadow: 0px 0px 0px rgba(0, 0, 0, 0.3);
+    border-radius: 5px;
+}
+
+
+.enquiry-form input,
+.enquiry-form select,
+.enquiry-form textarea{
+    display: block;
+    margin: 0px 15% 20px 15%;
+    width: 70%;
+    padding: 8px 20px;
+    border: 1px solid white;
+    border-radius: 10px;
+    color: #fff;
+    background-color: rgba(241, 241, 241, 0);
+}
+
+.enquiry-heading{
+    font-weight: 300;
+    font-size: 180%;
+    letter-spacing: 5px;
+    word-spacing: 6px;
+    text-align: center;
+    font-family: 'Aref Ruqaa', serif;
+    padding: 40px 0 60px 0;
+    color: #fff;
+}
+
+::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+    color: rgba(255, 255, 255, 0.77);
+}
+::-moz-placeholder { /* Firefox 19+ */
+    color: rgba(255, 255, 255, 0.77);
+}
+:-ms-input-placeholder { /* IE 10+ */
+    color: rgba(255, 255, 255, 0.77);
+}
+:-moz-placeholder { /* Firefox 18- */
+    color: rgba(255, 255, 255, 0.77);
+}
+
+
+.contact-info{
+    width:40%;
+    height: 550px;
+    float: left;
+    margin-top: 30px;
+    border-radius: 5px;
+    padding: 30px 0px;
+    background-color: rgba(0, 0, 0, 0.38);
+}
+
+.contact-info-heading{
+    font-weight: 300;
+    font-size: 180%;
+    letter-spacing: 5px;
+    word-spacing: 6px;
+    text-align: center;
+    font-family: 'Aref Ruqaa', serif;
+    padding: 20px 0 80px 0;
+    color: #fff;
+}
+
+.contact-info-data{
+    font-family: 'raleway', 'serif';
+    letter-spacing: 2px;
+    word-spacing: 2px;
+    color: white;
+    text-align: center;
+}
+
+.contact-info-data div{
+    margin: 0px 0px 30px 0px;
+    line-height: 40px;
+}

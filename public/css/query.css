@@ -1,0 +1,1033 @@
+@media only screen and (max-width: 1200px){
+
+
+    html,
+    body{
+        font-size: 20px;
+    }
+
+    /******************************** HOME PAGE ***********************************/
+    .shree-logo .primary-logo{
+        margin-top: -45px;
+    }
+
+    .bulb-container h2{
+        padding: 20px 0 45px 0;
+    }
+
+    .service{
+        width:48%;
+        height: 33vh;
+        margin: 0 2% 2% 0;
+    }
+
+    .newsletter-heading{
+        padding: 40px 0 16px 0;
+    }
+
+    .subscribe-message{
+        margin-top: 40px;
+    }
+
+    .enquiry-heading{
+        padding: 40px 0 50px 0;
+    }
+
+    .enquiry-form input,
+    .enquiry-form select,
+    .enquiry-form textarea{
+        margin: 20px 15%;
+        width: 70%;
+        padding: 10px 20px;
+    }
+
+    .enquiry-form textarea{
+        height: 100px;
+        max-height: 130px;
+        max-width: 70%;
+    }
+
+    .enquiry-form-button{
+        text-align: center;
+        margin-top: 30px;
+    }
+
+    .enquiry-form-button button{
+        padding: 15px 25px;
+        border-radius: 10px;
+        color: #c0392b;
+        background-color: white;
+        border: 1px solid #c0392b;
+        font-variant: small-caps;
+        font-family: 'raleway', 'serif';
+        -webkit-transition: background-color 0.6s ease, color 0.4s linear;
+        transition: background-color 0.6s ease, color 0.4s linear;
+        cursor: pointer;
+        outline: none;
+    }
+
+
+
+
+    /***************************** ABOUT US *********************************/
+
+
+    .aboutUs-headings{
+        padding-bottom: 40px;
+        font-size: 180%;
+    }
+
+
+    .aboutUs-data{
+        margin-top: 40px;
+        width: 90%;
+        margin-left: 5%;
+        font-family: 'raleway', 'serif';
+        word-spacing: 1px;
+        letter-spacing: 1px;
+        font-size: 88%;
+    }
+
+
+
+
+
+    /************************************ CONTACT US ************************************/
+
+    .contact-secondary{
+        width: 90%;
+        margin-left: 5%;
+    }
+
+    .contact-info{
+        width:40%;
+        height: 550px;
+        float: left;
+        margin-top: 30px;
+        border-radius: 5px;
+        padding: 30px 0px;
+        background-color: rgba(0, 0, 0, 0.38);
+    }
+
+    .contact-container .enquiry-form{
+        background-color: rgba(0, 0, 0, 0.38);
+        width: 50%;
+        margin-left: 50%;
+        height: 100vh;
+        box-shadow: 0px 0px 0px rgba(0, 0, 0, 0.3);
+        border-radius: 5px;
+    }
+
+
+}
+
+@media only screen and (max-width: 1023px) {
+
+    html,
+    body{
+        font-size: 19px;
+    }
+
+    .enquiry-button{
+        width:15%;
+    }
+
+    .home-info-primary{
+        margin-left: 10%;
+        width: 80%;
+        padding: 50px;
+        font-size: 95%;
+        margin-top: 30px;
+    }
+
+    .bulb-container{
+        font-size: 180%;
+    }
+
+    .bulb-container h2{
+        font-size: 110%;
+    }
+
+    .service-more{
+        font-size: 75%;
+    }
+
+
+    /***************************** ABOUT US *********************************/
+
+    .ourStory,
+    .ourMission,
+    .ourHeros{
+        width: 90%;
+        margin-left: 5%;
+    }
+
+    .ourHero {
+        width: 95%;
+        margin-left: 2.5%;
+    }
+
+    .ourHeroDesc{
+        width: 95%;
+        margin-left: 10%;
+        font-size: 80%;
+        line-height: 25px;
+    }
+
+    .aboutUs-data{
+        width: 90%;
+        margin-left: 5%;
+        word-spacing: 2px;
+        letter-spacing: 2px;
+        font-size: 85%;
+    }
+
+
+    /************************************ CONTACT US ************************************/
+
+
+    .contact-container{
+        height: 260vh;
+    }
+
+    .contact-secondary{
+        top:70%;
+    }
+
+    .contact-info{
+        width:70%;
+        height: 400px;
+        float: none;
+        margin-left: 15%;
+        margin-top: 10px;
+    }
+
+    .contact-info-heading{
+        padding: 20px 0 50px 0;
+    }
+
+    .contact-info-data div{
+        margin: 0px 0px 20px 0px;
+        line-height: 30px;
+    }
+
+    .contact-container .enquiry-form{
+        margin-top: 50px;
+        width: 80%;
+        margin-left: 10%;
+    }
+
+    .contact-container .enquiry-form input,
+    .contact-container .enquiry-form select,
+    .contact-container .enquiry-form textarea{
+        margin: 0px 10% 20px 10%;
+        width: 80%;
+    }
+
+    .contact-container .enquiry-form textarea{
+        max-width: 80%;
+    }
+
+    .contact-container .enquiry-heading{
+        padding: 40px 0 60px 0;
+    }
+
+
+    /************************************* FIND US *****************************************/
+
+
+    .findUs-secondary{
+        width: 90%;
+        position: absolute;
+        top: 85%;
+        margin-left: 5%;
+    }
+
+
+}
+
+
+@media only screen and (max-width: 777px) {
+    html,
+    body{
+        font-size: 18px;
+    }
+
+    .shree-logo{
+        top:28%;
+    }
+
+    .shree-logo .primary-logo{
+        margin-top: -40px;
+    }
+
+    .enquiry-button{
+        margin-top: 30px;
+        margin-right: 4%;
+        font-size: 75%;
+        width:20%;
+        height: 45px;
+    }
+
+    .home-quote{
+        top:63%;
+        word-spacing: 1px;
+        letter-spacing: 1px;
+        line-height: 65px;
+        width: 90%;
+        font-family: 'Poiret One', cursive;
+    }
+
+    .home-quote-primary{
+        font-size: 190%;
+    }
+
+    .home-quote-secondary{
+        font-size: 160%;
+    }
+
+
+    .main-nav {
+        margin-top: 20%;
+    }
+
+    .main-nav a li {
+        padding: 12px 0 12px 40%;
+    }
+
+    .main-nav a li:hover {
+        font-size: 94.5%;
+        margin-bottom: 15px;
+        padding: 12px 0 12px 39%;
+    }
+
+    .home-info-primary{
+        width: 100%;
+        margin-left: 0;
+    }
+
+    .home-info-secondary{
+        width: 100%;
+        margin-left: 0;
+    }
+
+    .info-place{
+        width: 48%;
+        margin-left: 1%;
+        height: 260px;
+    }
+
+    .more-city-button span{
+        margin-top: 40px;
+        margin-bottom: 20px;
+    }
+
+    .bulb-container{
+        height: 50vh;
+    }
+
+    .bulb-container-area i{
+        font-size: 110%;
+    }
+
+    .services{
+        margin-bottom: 80px;
+    }
+
+    .service-area{
+        height: 114vh;
+        width: 100%;
+        margin-left: 0;
+    }
+
+    .service-block{
+        width: 100%;
+        margin: 0 2.5%;
+        display: block;
+        padding: 0px 20px;
+    }
+
+    .service{
+        width:48%;
+        float: left;
+        height: 45vh;
+        position: relative;
+        margin: 0 1% 2% 0;
+        overflow: hidden;
+    }
+
+    .newsletter{
+        height: 70vh;
+    }
+
+    .newsletter-form input{
+        padding: 10px 30px;
+        margin-bottom: 10px;
+        width: 90%;
+    }
+
+    .newsletter-form button{
+        margin-top: 30px;
+        width: 90%;
+        background-color: #c0392b;
+        border: 2px solid #c0392b;
+        color: white;
+        font-weight: 700;
+        letter-spacing: 3px;
+        font-size: 110%;
+    }
+
+
+    .enquiry-form{
+        width: 100%;
+        margin-left: 0;
+        background-color: white;
+        height: 100vh;
+        box-shadow: 4px 4px 2px #c2c2c2;
+    }
+
+
+    .footer-navigation .footer-secondary{
+        padding-left: 25%;
+    }
+    .footer-contact .footer-secondary{
+        padding-left: 25%;
+    }
+
+    .nav-open{
+        position: absolute;
+    }
+
+
+    .loader i{
+        top:53%;
+        left: 44%;
+    }
+
+
+    /***************************** ABOUT US *********************************/
+
+    .ourStory,
+    .ourMission,
+    .ourHeros{
+        width: 100%;
+        margin-left: 0;
+    }
+
+
+
+
+    .ourHero {
+        width: 100%;
+        margin-left: 0;
+        height: auto;
+        text-align: center;
+    }
+
+    .ourHeroDesc{
+        width: 100%;
+        text-align: center;
+        font-size: 80%;
+        line-height: 25px;
+        margin-left: 0;
+    }
+
+    .ourHeroImage{
+        padding: 2px;
+        text-align: center;
+        float: none;
+        margin-bottom: 40px;
+        margin-left: 30px;
+    }
+
+    .aboutUs-data{
+        width: 95%;
+        margin-left: 2.5%;
+        word-spacing: 2px;
+        letter-spacing: 2px;
+        font-size: 85%;
+    }
+
+
+
+
+    /************************************ CONTACT US ************************************/
+
+    .contact-container .shree-logo{
+        top:33vh;
+    }
+
+    .contact-container{
+        height: 300vh;
+    }
+
+    .contact-heading{
+        top:66%;
+    }
+
+    .contact-secondary{
+        top:100%;
+        width: 100%;
+        margin-left: 0%;
+    }
+
+    .contact-container .enquiry-form{
+        width: 80%;
+        margin-left: 10%;
+        margin-top: 90px;
+        height: 100vh;
+    }
+
+    .contact-heading{
+        font-size: 220%;
+    }
+
+
+
+    /************************************* FIND US *****************************************/
+
+    .findUs-container{
+        height: 250vh;
+    }
+
+    .findUs-container .shree-logo{
+        top:33vh;
+    }
+
+    .findUs-heading{
+        top:65%;
+        width: 90%;
+    }
+
+
+    .findUs-secondary{
+        top: 100%;
+    }
+
+    .findUs-map{
+        margin-left: 5%;
+        width: 90%;
+        height: 400px;
+        float: none;
+    }
+
+
+    .findUs-address{
+        background-color: white;
+        width: 90%;
+        height:380px;
+        margin-left: 5%;
+        border-radius: 10px;
+        margin-top: 50px;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+
+    html,
+    body{
+        font-size: 17px;
+    }
+
+
+    .main-nav {
+        margin-top: 37%;
+    }
+
+    .main-nav a li {
+        padding: 22px 0 12px 31%;
+    }
+
+    .main-nav a li:hover {
+        list-style: none;
+        padding: 22px 0 12px 31%;
+        width: 100%;
+        margin-bottom: 20px;
+        border-radius: 1px;
+        font-size: 80%;
+        letter-spacing: 2px;
+    }
+
+    .main-nav a li:hover .small-icon{
+        margin-right: 25px;
+    }
+
+    .enquiry-button{
+        margin-top: 30px;
+        margin-right: 4%;
+        border:2px solid white;
+        border-radius: 7px;
+        font-size: 75%;
+        width:25%;
+        height: 45px;
+    }
+
+    .home-quote{
+        top:63%;
+        word-spacing: 1px;
+        letter-spacing: 1px;
+        line-height: 65px;
+        width: 90%;
+        font-family: 'Poiret One', cursive;
+    }
+
+    .home-quote-primary{
+        font-size: 190%;
+    }
+
+    .home-quote-secondary{
+        font-size: 160%;
+    }
+
+    .home-info{
+        padding: 0;
+    }
+
+    .home-info-primary{
+        padding: 40px;
+        font-size: 90%;
+    }
+
+    .info-place{
+        width: 48%;
+        margin-left: 1%;
+        height: 260px;
+    }
+
+    .more-city-button span{
+        margin-top: 50px;
+        margin-bottom: 0;
+    }
+
+    .bulb-container{
+        height: 40vh;
+        font-size: 140%;
+    }
+
+    .bulb-container h2{
+        font-weight: 200;
+        font-size: 130%;
+        letter-spacing: 3px;
+        word-spacing: 4px;
+        padding: 30px 0 20px 0;
+    }
+
+    .bulb-container-area{
+        text-align: center;
+        padding-top: 40px;
+        width:90%;
+        margin-left: 5%;
+    }
+
+    .services{
+        height: 220vh;
+        background-color: #f1f1f1;
+        padding-top: 40px;
+    }
+
+    .service-area{
+        height: 220vh;
+    }
+
+    .service{
+        width:98%;
+        float: left;
+        height: 45vh;
+        position: relative;
+        margin: 0 1% 2% 0;
+        overflow: hidden;
+    }
+
+    .newsletter{
+        height: 70vh;
+    }
+
+    .newsletter-form input{
+        padding: 10px 30px;
+        margin-bottom: 10px;
+        width: 90%;
+    }
+
+    .newsletter-form button{
+        margin-top: 30px;
+        width: 90%;
+        background-color: #c0392b;
+        border: 2px solid #c0392b;
+        color: white;
+        font-weight: 700;
+        letter-spacing: 3px;
+        font-size: 110%;
+    }
+
+    .enquiry-form{
+        width: 100%;
+        margin-left: 0;
+    }
+
+    .enquiry-form-button button{
+        background-color: #c0392b;
+        border: 1px solid #c0392b;
+        color: white;
+    }
+
+
+
+    .footer{
+        height: auto;
+    }
+
+
+    .footer-primary{
+        text-align: center;
+    }
+
+    .footer-secondary{
+        text-align: center;
+    }
+
+    .footer-navigation{
+        width: 100%;
+        height: auto;
+    }
+
+    .footer-navigation .footer-secondary{
+        padding-left: 0;
+    }
+
+    .footer-secondary ul li{
+        display: inline-block;
+    }
+
+    .footer-contact{
+        width: 100%;
+        height: auto;
+        margin-bottom: 30px;
+    }
+
+    .footer-contact .footer-primary{
+        margin-bottom: 10px;
+        margin-top: 30px;
+    }
+
+    .footer-contact .footer-secondary{
+        margin: 0;
+        padding: 0;
+    }
+
+    .footer-location{
+        width: 100%;
+        height: auto;
+    }
+
+    .footer-location .footer-primary{
+        margin-bottom: 10px;
+    }
+
+    .footer-timings{
+        margin: 0;
+        padding: 0;
+        height: auto;
+    }
+
+    .nav-open{
+        position: absolute;
+    }
+
+    .loader i{
+        top:53%;
+        left: 39%;
+    }
+
+
+    /***************************** ABOUT US *********************************/
+
+    .ourStory,
+    .ourMission,
+    .ourHeros{
+        width: 100%;
+        margin-left: 0;
+        padding: 30px 10px;
+    }
+
+
+
+    .ourHero {
+        width: 100%;
+        margin-left: 0;
+        height: auto;
+        text-align: center;
+    }
+
+    .ourHeroDesc{
+        width: 100%;
+        text-align: center;
+        font-size: 80%;
+        line-height: 25px;
+        margin-left: 0;
+    }
+
+    .ourHeroImage{
+        padding: 2px;
+        text-align: center;
+        float: none;
+        margin-bottom: 40px;
+        margin-left: 30px;
+    }
+
+    .aboutUs-data{
+        width: 90%;
+        margin-left: 5%;
+        word-spacing: 2px;
+        letter-spacing: 2px;
+        font-size: 85%;
+        text-align: center;
+    }
+
+    .aboutUs-hero{
+        height: 100vh;
+    }
+
+    .aboutUs-title{
+        color: #fff;
+        font-weight: 800;
+        position: absolute;
+        top:65%;
+        left: 50%;
+        -webkit-transform: translate(-50%,-50%);
+        transform: translate(-50%,-50%);
+        text-align: center;
+        word-spacing: 2px;
+        letter-spacing: 2px;
+        line-height: 95px;
+        font-variant: small-caps;
+        font-family: 'Poiret One', cursive;
+        font-size: 220%;
+        width: 90%;
+    }
+
+
+    /************************************ CONTACT US ************************************/
+
+
+
+    .contact-heading{
+        font-size: 220%;
+    }
+
+    .contact-container .enquiry-form{
+        width: 90%;
+        margin-left: 5%;
+        margin-top: 90px;
+        height: 90vh;
+    }
+
+    .contact-info{
+        width:90%;
+        margin-left: 5%;
+    }
+
+    .contact-container .enquiry-heading{
+        padding: 40px 0 70px 0;
+    }
+
+
+    /************************************** FIND US ***********************************/
+
+    .findUs-container{
+        height: 230vh;
+    }
+
+    .findUs-contact-button a{
+        background-color: #c0392b;
+        color: white;
+    }
+
+    .findUs-map{
+        margin-left: 0;
+        width: 100%;
+        height: 300px;
+
+    }
+
+    #map {
+        height: 300px;
+        width: 100%;
+        background-color: grey;
+    }
+
+    .findUs-address{
+        width: 95%;
+        margin-left: 2.5%;
+        margin-top: 80px;
+    }
+
+
+
+
+
+
+
+}
+
+@media only screen and (max-width: 380px){
+    .primary-logo h1{
+        margin-top: 140px;
+        padding-bottom: 0;
+        margin-bottom: 0;
+    }
+
+    .loader i{
+        top:53%;
+        left: 38%;
+    }
+
+    /************************************ CONTACT US ************************************/
+
+
+
+    .contact-container .enquiry-form{
+        width: 90%;
+        margin-left: 5%;
+        margin-top: 90px;
+        height: 90vh;
+    }
+
+
+    .contact-container .enquiry-heading{
+        padding: 30px 0 70px 0;
+    }
+}
+
+
+@media only screen and (max-width: 374px) {
+    html,
+    body{
+        font-size: 16px;
+    }
+
+    .main-nav {
+        margin-top: 30%;
+    }
+
+    .main-nav a li {
+        padding: 15px 0 12px 28%;
+    }
+
+    .main-nav a li:hover {
+        list-style: none;
+        padding: 20px 0 12px 28%;
+        width: 100%;
+        margin-bottom: 20px;
+        border-radius: 1px;
+        font-size: 80%;
+        letter-spacing: 2px;
+    }
+
+    .main-nav a li:hover .small-icon{
+        margin-right: 25px;
+    }
+
+    .enquiry-heading{
+        padding-bottom: 40px;
+        padding-top: 32px;
+    }
+
+    .enquiry-form input,
+    .enquiry-form select,
+    .enquiry-form textarea{
+        margin: 8px 10%;
+        width: 80%;
+    }
+
+    .enquiry-form textarea{
+        height: 100px;
+        max-height: 130px;
+        max-width: 80%;
+    }
+
+
+    .bulb-container h2{
+        padding-bottom: 3px;
+        padding-top: 3px;
+    }
+
+    .bulb-container .bulb-container-area{
+        font-size: 90%;
+    }
+
+    .shree-logo{
+        top:20%;
+    }
+
+    .primary-logo h1{
+        margin-top: 140px;
+        padding-bottom: 0;
+        margin-bottom: 0;
+    }
+
+    .newsletter-heading{
+        padding-bottom: 0px;
+    }
+
+    .newsletter-form{
+        margin-top: 10px;
+    }
+
+    .loader i{
+        top:53%;
+        left: 39%;
+    }
+
+
+    /******************************** CONTACT US ************************************/
+
+    .contact-container{
+        height: 330vh;
+    }
+
+    .contact-container .shree-logo{
+        top:30%;
+    }
+
+    .contact-heading{
+        font-size: 200%;
+    }
+
+    .contact-container .enquiry-form{
+        width: 100%;
+        margin-left: 0;
+        height: 100vh;
+    }
+
+
+    .contact-container .enquiry-form input,
+    .contact-container .enquiry-form select,
+    .contact-container .enquiry-form textarea{
+        margin: 0px 10% 15px 10%;
+        padding: 8px 20px;
+    }
+
+    /*********************************** FIND US **************************************/
+
+    .findUs-container{
+        height: 260vh;
+    }
+
+    .findUs-heading{
+        font-size: 200%;
+    }
+
+    .findUs-address{
+        height: 330px;
+    }
+
+    .findUs-contact-button{
+        margin-top: 50px;
+    }
+
+
+
+
+
+
+}
