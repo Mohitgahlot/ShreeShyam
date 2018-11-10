@@ -14,57 +14,155 @@
                 Our Services
             </div>
         </section>
-        <section class="ourHeros">
-            <h2 class="aboutUs-headings">
-                Luxury Cars
-            </h2>
-            <div class="ourHero">
-                <div class="ourHeroImage">
-                    <img src="{{URL::to('images/bmw.jpg')}}">
+        <a href="{{route('eachproduct',['id'=>"Luxury Cars"])}}">
+            <section class="ourHeros">
+                <h2 class="aboutUs-headings">
+                    Luxury Cars
+                </h2>
+                <div class="ourHero">
+                    <div class="ourHeroImage">
+                        <img src="{{URL::to('images/bmw.jpg')}}">
+                    </div>
+                    <div class="ourHeroDesc">
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Culpa dolores error esse eveniet harum inventore ipsam, iste laudantium, magnam nesciunt nihil omnis quibusdam quidem soluta temporibus ullam velit! Minima, numquam.
+                    </div>
                 </div>
-                <div class="ourHeroDesc">
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Culpa dolores error esse eveniet harum inventore ipsam, iste laudantium, magnam nesciunt nihil omnis quibusdam quidem soluta temporibus ullam velit! Minima, numquam.
+            </section>
+        </a>
+        <a href="{{route('eachproduct',['id'=>"Sports Cars"])}}">
+            <section class="ourHeros">
+                <h2 class="aboutUs-headings">
+                    Sports Cars
+                </h2>
+                <div class="ourHero">
+                    <div class="ourHeroImage">
+                        <img src="{{URL::to('images/bmw.jpg')}}">
+                    </div>
+                    <div class="ourHeroDesc">
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Culpa dolores error esse eveniet harum inventore ipsam, iste laudantium, magnam nesciunt nihil omnis quibusdam quidem soluta temporibus ullam velit! Minima, numquam.
+                    </div>
                 </div>
-            </div>
-        </section>
-        <section class="ourHeros">
-            <h2 class="aboutUs-headings">
-                Buses
-            </h2>
-            <div class="ourHero">
-                <div class="ourHeroImage">
-                    <img src="{{URL::to('images/bus.jpg')}}">
+            </section>
+        </a>
+        <a href="{{route('eachproduct',['id'=>"SUV Cars"])}}">
+            <section class="ourHeros">
+                <h2 class="aboutUs-headings">
+                    SUV Cars
+                </h2>
+                <div class="ourHero">
+                    <div class="ourHeroImage">
+                        <img src="{{URL::to('images/bmw.jpg')}}">
+                    </div>
+                    <div class="ourHeroDesc">
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Culpa dolores error esse eveniet harum inventore ipsam, iste laudantium, magnam nesciunt nihil omnis quibusdam quidem soluta temporibus ullam velit! Minima, numquam.
+                    </div>
                 </div>
-                <div class="ourHeroDesc">
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Culpa dolores error esse eveniet harum inventore ipsam, iste laudantium, magnam nesciunt nihil omnis quibusdam quidem soluta temporibus ullam velit! Minima, numquam.
+            </section>
+        </a>
+        <a href="{{route('eachproduct',['id'=>"Sedan Cars"])}}">
+            <section class="ourHeros">
+                <h2 class="aboutUs-headings">
+                    Sedan Cars
+                </h2>
+                <div class="ourHero">
+                    <div class="ourHeroImage">
+                        <img src="{{URL::to('images/bmw.jpg')}}">
+                    </div>
+                    <div class="ourHeroDesc">
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Culpa dolores error esse eveniet harum inventore ipsam, iste laudantium, magnam nesciunt nihil omnis quibusdam quidem soluta temporibus ullam velit! Minima, numquam.
+                    </div>
                 </div>
-            </div>
-        </section>
-        <section class="ourHeros">
-            <h2 class="aboutUs-headings">
-                Cars
-            </h2>
-            <div class="ourHero">
-                <div class="ourHeroImage">
-                    <img src="{{URL::to('images/car.jpg')}}">
+            </section>
+        </a>
+        <a href="{{route('eachproduct',['id'=>"Hatchback Cars"])}}">
+            <section class="ourHeros">
+                <h2 class="aboutUs-headings">
+                    Hatchback Cars
+                </h2>
+                <div class="ourHero">
+                    <div class="ourHeroImage">
+                        <img src="{{URL::to('images/bmw.jpg')}}">
+                    </div>
+                    <div class="ourHeroDesc">
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Culpa dolores error esse eveniet harum inventore ipsam, iste laudantium, magnam nesciunt nihil omnis quibusdam quidem soluta temporibus ullam velit! Minima, numquam.
+                    </div>
                 </div>
-                <div class="ourHeroDesc">
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Culpa dolores error esse eveniet harum inventore ipsam, iste laudantium, magnam nesciunt nihil omnis quibusdam quidem soluta temporibus ullam velit! Minima, numquam.
+            </section>
+        </a>
+        <a href="{{route('eachproduct',['id'=>"Luxury Bus"])}}">
+            <section class="ourHeros">
+                <h2 class="aboutUs-headings">
+                    Luxury Bus
+                </h2>
+                <div class="ourHero">
+                    <div class="ourHeroImage">
+                        <img src="{{URL::to('images/bmw.jpg')}}">
+                    </div>
+                    <div class="ourHeroDesc">
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Culpa dolores error esse eveniet harum inventore ipsam, iste laudantium, magnam nesciunt nihil omnis quibusdam quidem soluta temporibus ullam velit! Minima, numquam.
+                    </div>
                 </div>
-            </div>
-        </section>
-        <section class="ourHeros">
-            <h2 class="aboutUs-headings">
-                Mini Buses
-            </h2>
-            <div class="ourHero">
-                <div class="ourHeroImage">
-                    <img src="{{URL::to('images/minibus.jpg')}}">
+            </section>
+        </a>
+        <a href="{{route('eachproduct',['id'=>"Mini Bus"])}}">
+            <section class="ourHeros">
+                <h2 class="aboutUs-headings">
+                    Mini Bus
+                </h2>
+                <div class="ourHero">
+                    <div class="ourHeroImage">
+                        <img src="{{URL::to('images/bmw.jpg')}}">
+                    </div>
+                    <div class="ourHeroDesc">
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Culpa dolores error esse eveniet harum inventore ipsam, iste laudantium, magnam nesciunt nihil omnis quibusdam quidem soluta temporibus ullam velit! Minima, numquam.
+                    </div>
                 </div>
-                <div class="ourHeroDesc">
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Culpa dolores error esse eveniet harum inventore ipsam, iste laudantium, magnam nesciunt nihil omnis quibusdam quidem soluta temporibus ullam velit! Minima, numquam.
+            </section>
+        </a>
+        <a href="{{route('eachproduct',['id'=>"Bus"])}}">
+            <section class="ourHeros">
+                <h2 class="aboutUs-headings">
+                    Bus
+                </h2>
+                <div class="ourHero">
+                    <div class="ourHeroImage">
+                        <img src="{{URL::to('images/bmw.jpg')}}">
+                    </div>
+                    <div class="ourHeroDesc">
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Culpa dolores error esse eveniet harum inventore ipsam, iste laudantium, magnam nesciunt nihil omnis quibusdam quidem soluta temporibus ullam velit! Minima, numquam.
+                    </div>
                 </div>
-            </div>
-        </section>
+            </section>
+        </a>
+        <a href="{{route('eachproduct',['id'=>"Sports Bike"])}}">
+            <section class="ourHeros">
+                <h2 class="aboutUs-headings">
+                    Sports Bike
+                </h2>
+                <div class="ourHero">
+                    <div class="ourHeroImage">
+                        <img src="{{URL::to('images/bmw.jpg')}}">
+                    </div>
+                    <div class="ourHeroDesc">
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Culpa dolores error esse eveniet harum inventore ipsam, iste laudantium, magnam nesciunt nihil omnis quibusdam quidem soluta temporibus ullam velit! Minima, numquam.
+                    </div>
+                </div>
+            </section>
+        </a>
+        <a href="{{route('eachproduct',['id'=>"Bike"])}}">
+            <section class="ourHeros">
+                <h2 class="aboutUs-headings">
+                    Bike
+                </h2>
+                <div class="ourHero">
+                    <div class="ourHeroImage">
+                        <img src="{{URL::to('images/bmw.jpg')}}">
+                    </div>
+                    <div class="ourHeroDesc">
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Culpa dolores error esse eveniet harum inventore ipsam, iste laudantium, magnam nesciunt nihil omnis quibusdam quidem soluta temporibus ullam velit! Minima, numquam.
+                    </div>
+                </div>
+            </section>
+        </a>
     </div>
 @endsection

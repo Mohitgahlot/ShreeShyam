@@ -1,0 +1,15 @@
+.user-box{
+    width: 50%;
+    border: 1px solid black;
+    position: absolute;
+    left: 50%;
+    top: 30%;
+    padding: 20px;
+    text-align: center;
+    transform: translate(-50%,-50%);
+}
+
+.show-container{
+    height: 56vh;
+    width: 100%;
+}

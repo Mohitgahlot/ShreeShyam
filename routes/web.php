@@ -43,10 +43,48 @@ Route::get('/services',[
 ]);
 
 
+Route::get('/product/{id?}',[
+    'uses'=>'PageController@getEachProduct',
+    'as'=>'eachproduct'
+]);
+
+
 Route::get('/test',[
     'uses'=>'PageController@getTest',
     'as'=>'test'
 ]);
+
+Route::get('/recent',[
+    'uses'=>'PageController@getRecent',
+    'as'=>'recent'
+]);
+
+Route::get('/max',[
+    'uses'=>'PageController@getMax',
+    'as'=>'max'
+]);
+
+Route::get('/login',[
+    'uses'=>'PageController@getLogin',
+    'as'=>'login'
+]);
+
+Route::get('/logout',[
+    'uses'=>'PageController@getLogout',
+    'as'=>'logout'
+]);
+
+
+Route::post('/signin',[
+    'uses'=>'PageController@postSignin',
+    'as'=>'user.signin'
+]);
+
+Route::get('/show',[
+    'uses'=>'PageController@getShow',
+    'as'=>'show'
+]);
+
 
 Route::post('/sendSMS',[
    'uses'=>'MsgController@sendSms',

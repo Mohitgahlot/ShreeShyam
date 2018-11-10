@@ -1,0 +1,27 @@
+.items{
+    padding: 20px 10px;
+    border: 1px solid black;
+    margin: 20% 51%;
+    width: 40%;
+    transform: translate(-50%,-50%);
+}
+
+h4{
+    text-decoration: underline;
+}
+
+span{
+    float:right;
+    margin-right: 20px;
+}
+
+h5{
+    margin-bottom: 5px;
+}
+
+a{
+    font-size: 14px;
+    text-decoration: underline;
+    margin-bottom: 10px;
+    display: inline-block;
+}

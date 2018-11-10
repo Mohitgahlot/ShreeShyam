@@ -55,7 +55,7 @@ nav {
 }
 
 .main-nav {
-    margin-top: 10%;
+    margin-top: 6.5%;
 }
 
 .main-nav a  {
@@ -65,7 +65,7 @@ nav {
 
 .main-nav a li {
     list-style: none;
-    padding: 12px 0 12px 43%;
+    padding: 10px 0 10px 43%;
     width: 100%;
     margin-bottom: 20px;
     border-radius: 1px;
@@ -80,7 +80,7 @@ nav {
     transition: 0.1s linear;
     font-size: 95%;
     margin-bottom: 14px;
-    padding: 12px 0 12px 42.5%;
+    padding: 10px 0 10px 42.5%;
 }
 
 .main-nav a li:hover .small-icon{

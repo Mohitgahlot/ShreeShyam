@@ -29,9 +29,9 @@
             <div class="home-hero-background1"></div>
             <div class="home-hero-background2"></div>
                 @include('includes.logo')
-            <div class="enquiry-button">
+            <a href="{{route('product')}}" class="enquiry-button">
                 Our Services
-            </div>
+            </a>
             <div class="home-quote">
                 <div class="home-quote-primary">
                     Discover The Great Places Of India

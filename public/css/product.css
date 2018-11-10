@@ -17,3 +17,12 @@
     background-image: -webkit-linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url("../images/services.jpg");
     background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url("../images/services.jpg");
 }
+
+a{
+    color: black;
+}
+
+.ourHeros:hover{
+    box-shadow: 0 0 0 0;
+    transition: 0.2s box-shadow;
+}
